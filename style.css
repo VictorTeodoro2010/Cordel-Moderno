@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+body{
+    margin: 0px;
+}
+
+header{
+    background-color: black;
+    color: whitesmoke;
+
+    text-align: center;
+
+    margin: 0px;
+}
+
+header > h1{
+    font-family: ad algo;
+    font-size: 125px;
+    font-weight: bold;
+
+    padding-top: 50px;
+    margin: 0px;
+}
+
+header > p{
+    font-size: 25px;
+
+    margin:  10px 0px 0px 0px;
+    padding-bottom: 50px;
+}
+
+/*Add padding, tamanho, fontes, cores, fundos...*/
