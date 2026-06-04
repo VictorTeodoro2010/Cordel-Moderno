@@ -1,5 +1,8 @@
 @charset "UTF-8";
 
+
+
+
 body{
     margin: 0px;
 }
@@ -14,7 +17,7 @@ header{
 }
 
 header > h1{
-    font-family: ad algo;
+    font-family: 'PassionOne', sans-serif;
     font-size: 125px;
     font-weight: bold;
 
@@ -27,6 +30,7 @@ header > p{
 
     margin:  10px 0px 0px 0px;
     padding-bottom: 50px;
+    
 }
 
 /*Add padding, tamanho, fontes, cores, fundos...*/
