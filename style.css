@@ -1,10 +1,41 @@
 @charset "UTF-8";
 
 
+@font-face {
+    font-family: 'Cordel';
+    src: url(Fontes/Passion_One/PassionOne-Bold.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Sriracha';
+    src: url(Fontes/Sriracha/Sriracha-Regular.ttf) format('truetype');
+}
 
+:root{
+    --fonte1: 'Passion One', Verdana, Tahoma, sans-serif ;
+    --fonte2: 'Sriracha', Verdana, Tahoma, sans-serif;
+    --fonte3: Verdana, Tahoma, sans-serif
+}
 
 body{
     margin: 0px;
+}
+
+h1{
+    font-family: 'Cordel', Arial, Helvetica, sans-serif;
+    font-size: 125px;
+    font-weight: bold;
+
+    padding-top: 50px;
+    margin: 0px;
+}
+
+p{
+    font-family: var(--fonte2);
+    font-size: 50px;
+    font-weight: 400;
+    font-style: normal;
+
+    padding-left: 30px;
 }
 
 header{
@@ -16,21 +47,31 @@ header{
     margin: 0px;
 }
 
-header > h1{
-    font-family: 'PassionOne', sans-serif;
-    font-size: 125px;
-    font-weight: bold;
 
-    padding-top: 50px;
-    margin: 0px;
-}
 
 header > p{
+    font-family: var(--fonte3);
     font-size: 25px;
 
     margin:  10px 0px 0px 0px;
     padding-bottom: 50px;
     
+}
+
+section{
+    height: 98vh;
+
+}
+
+section#joaninha{
+    background-color: lightgray;
+    background-image: url(Imagens/background001.jpg);
+
+    color: white;
+}
+
+p#fundo{
+    background-color: rgba(0, 0, 0, 0.774);
 }
 
 /*Add padding, tamanho, fontes, cores, fundos...*/
