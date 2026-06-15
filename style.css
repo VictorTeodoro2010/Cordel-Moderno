@@ -13,7 +13,7 @@
 :root{
     --fonte1: 'Passion One', Verdana, Tahoma, sans-serif ;
     --fonte2: 'Sriracha', Verdana, Tahoma, sans-serif;
-    --fonte3: Verdana, Tahoma, sans-serif
+    --fonte3: Verdana, Tahoma, sans-serif;
 }
 
 body{
@@ -22,7 +22,7 @@ body{
 
 h1{
     font-family: 'Cordel', Arial, Helvetica, sans-serif;
-    font-size: 125px;
+    font-size: 120px;
     font-weight: bold;
 
     padding-top: 50px;
@@ -34,8 +34,28 @@ p{
     font-size: 50px;
     font-weight: 400;
     font-style: normal;
+}
 
-    padding-left: 30px;
+p#img01{
+    background-image: url(Imagens/background001.jpg);
+}
+
+p#img02{
+        background-image: url(Imagens/background002.jpg);
+}
+
+p.fundo{
+    color:white;
+    background-color: rgba(0, 0, 0, 0.248);
+}
+
+
+
+a{
+    color: white;
+    font-family: var(--fonte3);
+    font-weight: bold;
+    text-decoration: none;
 }
 
 header{
@@ -44,7 +64,7 @@ header{
 
     text-align: center;
 
-    margin: 0px;
+    margin: 0px 0px 50px 0px;
 }
 
 
@@ -62,16 +82,3 @@ section{
     height: 98vh;
 
 }
-
-section#joaninha{
-    background-color: lightgray;
-    background-image: url(Imagens/background001.jpg);
-
-    color: white;
-}
-
-p#fundo{
-    background-color: rgba(0, 0, 0, 0.774);
-}
-
-/*Add padding, tamanho, fontes, cores, fundos...*/
