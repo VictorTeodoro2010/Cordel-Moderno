@@ -36,16 +36,16 @@ p{
     font-style: normal;
 }
 
-p#img01{
-    background-image: url(Imagens/background001.jpg);
+#img01{
+    background-image: url('Imagens/background001.jpg');
 }
 
-p#img02{
-        background-image: url(Imagens/background002.jpg);
+#img02{
+    background-image: url('Imagens/background002.jpg');
 }
 
 p.fundo{
-    color:white;
+        color:white;
     background-color: rgba(0, 0, 0, 0.248);
 }
 
