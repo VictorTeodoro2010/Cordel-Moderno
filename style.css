@@ -36,20 +36,10 @@ p{
     font-style: normal;
 }
 
-#img01{
-    background-image: url('Imagens/background001.jpg');
-}
-
-#img02{
-    background-image: url('Imagens/background002.jpg');
-}
-
 p.fundo{
         color:white;
     background-color: rgba(0, 0, 0, 0.248);
 }
-
-
 
 a{
     color: white;
@@ -80,5 +70,8 @@ header > p{
 
 section{
     height: 98vh;
+}
 
+.001{
+    
 }
