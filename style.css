@@ -62,7 +62,9 @@ header > p{
 }
 
 p.fundo{
+    color: white;
     background-color: rgba(0, 0, 0, 0.301);
+    display: inline-block ;
 }
 
 #img1{
@@ -71,4 +73,8 @@ p.fundo{
 
 #img2{
     background-image: url('Imagens/background002.jpg');
+}
+
+section.sombra{
+    box-shadow: 0px 0px 12px 1px black inset;
 }
