@@ -62,7 +62,7 @@ header > p{
 }
 
 p.fundo{
-    box-shadow: ;
+    background-color: rgba(0, 0, 0, 0.301);
 }
 
 #img1{
