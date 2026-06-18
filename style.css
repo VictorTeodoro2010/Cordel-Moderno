@@ -18,6 +18,7 @@
 
 body{
     margin: 0px;
+    min-width: 320px;
 }
 
 h1{
@@ -30,7 +31,7 @@ h1{
 }
 
 p{
-    padding-left: 20px;
+    padding: 40px 0px 40px 30px;
     font-size: 53px;
     line-height: 107px;
     font-family: var(--fonte2);
@@ -47,8 +48,7 @@ header{
     color: whitesmoke;
 
     text-align: center;
-
-    margin: 0px 0px 50px 0px;
+    margin: 0px;
 }
 
 header > p{
@@ -56,14 +56,18 @@ header > p{
 
     font-family: var(--fonte3);
     font-size: 25px;
+    line-height: 40px;
 
-    margin:  10px 0px 0px 0px;
-    padding-bottom: 50px;
+    margin:  0px;
+    padding: 5px 0px 20px 0px;
 }
 
 p.fundo{
     color: white;
     background-color: rgba(0, 0, 0, 0.301);
+
+    margin-left: 30px;
+    padding-left: 0px;
     display: inline-block ;
 }
 
@@ -75,6 +79,32 @@ p.fundo{
     background-image: url('Imagens/background002.jpg');
 }
 
-section.sombra{
+.sombra{
+    background-color: black;
+
     box-shadow: 0px 0px 12px 1px black inset;
+
+    background-size: cover; /*contain, cover. contain:achata e cover:corta*/
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+footer{
+    color: white;
+    background-color: black;
+}
+
+strong{
+    font-weight: bold;
+}
+
+footer > p{
+    font-family: var(--fonte3);
+    font-size: 20px;
+    text-align: center;
+    line-height: 30px;
+    
+    margin: 0px; 
+    padding: 0px;
 }
