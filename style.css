@@ -25,6 +25,7 @@ h1{
     font-family: 'Cordel', Arial, Helvetica, sans-serif;
     font-size: 120px;
     font-weight: bold;
+    font-variant: small-caps;
 
     padding-top: 50px;
     margin: 0px;
